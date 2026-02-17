@@ -8,8 +8,6 @@
 
 
 
-
-
 subscriptions = {
 
   sub1 = {
@@ -20,8 +18,8 @@ subscriptions = {
         required_tags = {
           environment = "test"
           costcenter  = "XYZ"
-          application = "FAF"
-          owner       = "FAF Team"
+          application = "FFF"
+          owner       = "FFF Team"
           managed_by  = "terraform"
         }
       },
@@ -49,33 +47,3 @@ subscriptions = {
   }
 }
 
-
-
-
-
-
-# resource_group_tags = {
-
-#   "faf-rg" = {
-#     environment = "test"
-#     costcenter  = "XYZ"
-#     application = "A"
-#     owner       = "FAF Team"
-#     managed_by  = "terraform"
-#   }
-
-#   "Datadog-RG" = {
-#     environment = "test"
-#     costcenter  = "finops"
-#     application = "B"
-#     owner       = "Siddesh Mayekar"
-#     managed_by  = "terraform"
-#   }
-#   "pao-poc" = {
-#     environment = "test"
-#     costcenter  = "ooo"
-#     application = "PAO"
-#     owner       = "Amol Patil"
-#     managed_by  = "terraform"
-#   }
-# }
